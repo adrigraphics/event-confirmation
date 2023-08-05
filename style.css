@@ -87,6 +87,27 @@ section.first {
   top: 0;
 }
 
+.btn {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  background-color: #E30290;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 2px solid #02BECA;
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  transform: scale(0.9);
+  background-color: #A7026A;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+}
+
 .txt-box {
   text-align: center;
   width: 50%;
@@ -146,7 +167,7 @@ section.second {
   background-color: #340C6A !important;
   color: white;
   height: 100vh;
-  width: 50vw;
+  width: 40vw;
   border-radius: 0 0 0 133px;
 }
 
@@ -155,7 +176,7 @@ section.second {
   left: 0;
   background-color: #C7ECFF;
   height: 100vh;
-  width: 70vw;
+  width: 80vw;
   
 }
 
