@@ -45,7 +45,7 @@ h1 {
   font-family: 'Abril Fatface', serif;
   line-height: 50px;
   font-size: 50px;
-  margin-bottom: -1px;
+  margin: -1px auto;
 }
 
 span {
@@ -62,7 +62,7 @@ h2 {
 
 p {
   font-size: 18px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 section.first {
@@ -98,8 +98,9 @@ section.first {
   text-decoration: none;
   color: white;
   font-size: 21px;
+  font-weight: bolder;
   background-color: #E30290;
-  padding: 10px 0px;
+  padding: 10px 20px;
   width: 100%;
   border-radius: 100px;
   border: 2px solid #02BECA;
@@ -119,6 +120,7 @@ section.first {
 .txt-box {
   text-align: center;
   width: 50%;
+  margin-top: -20px
 }
 
 .first .txtcontainer {
@@ -216,7 +218,7 @@ section.second {
   top: 0;
   background-color: #C7ECFF;
   width: 100vw;
-  height: 70vh;
+  height: 61vh;
 }
   
   
