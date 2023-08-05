@@ -47,6 +47,14 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
 section.first {
   position: relative;
   height: 100vh;
@@ -75,9 +83,18 @@ section.first {
   top: 0;
 }
 
+.txt-box {
+  text-align: center;
+  width: 50%;
+}
 
 .first .txtcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  gap: 10px;
   z-index: 4;
   left: 0;
   background-color: #481093;
@@ -115,10 +132,14 @@ section.second {
 }
 
 .second .txtcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   z-index: 4;
   right: 0;
-  background-color: #481093;
+  background-color: #340C6A !important;
   color: white;
   height: 100vh;
   width: 60vw;
@@ -187,5 +208,10 @@ section.second {
   background-color: #C7ECFF;
   width: 100vw;
   height: 70vh;
+}
+  
+  .txt-box {
+  text-align: center;
+  width: 80%;
 }
 }
