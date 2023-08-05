@@ -93,7 +93,7 @@
               /><br />
               <input
                 type="email"
-                id="phone"
+                id="email"
                 name="email"
                 class="form"
                 placeholder="Correo"
@@ -109,8 +109,8 @@
     <script>
       function sendEmail() {
         Email.send({
-          Host: "smtp.gmail.com",
-          Username: "despedidadesolterapassword@gmail.com",
+          Host: "smtp.elasticemail.com",
+          Username: "despedidadesoltera@elasticemail.com",
           Password: "despedidapassword",
           To: "adrigraphicss@gmail.com",
           From: document.getElementById("email").value,
