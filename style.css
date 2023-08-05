@@ -60,7 +60,7 @@ section.first {
 
 
 
-.txtcontainer {
+.txtcontainerleft {
   position: absolute;
   z-index: 4;
   left: 0;
@@ -71,7 +71,7 @@ section.first {
   border-radius: 0 133px 0 0;
 }
 
-.imgcontainer {
+.imgcontainerright {
   position: absolute;
   right: 0;
   background-color: #C7ECFF;
@@ -79,6 +79,14 @@ section.first {
   width: 60vw;
   
 }
+
+.imgcontainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
 @media only screen and (max-width: 600px) {
   section.first {
   flex-direction: column-reverse; 
@@ -101,6 +109,5 @@ section.first {
   background-color: #C7ECFF;
   width: 100vw;
   height: 70vh;
-  
 }
 }
