@@ -43,20 +43,25 @@ body {
 
 h1 {
   font-family: 'Abril Fatface', serif;
-  line-height: 60px;
-  font-size: 60px;
+  line-height: 50px;
+  font-size: 50px;
   margin-bottom: -1px;
+}
+
+span {
+  font-family: 'Abril Fatface', serif;
+  font-size: 24px;
 }
 
 h2 {
   font-family: 'Abril Fatface', serif;
-  line-height: 40px;
-  font-size: 40px;
+  line-height: 30px;
+  font-size: 30px;
   margin-bottom: -1px;
 }
 
 p {
-  font-size: 21px;
+  font-size: 18px;
   margin-bottom: 40px;
 }
 
@@ -94,7 +99,8 @@ section.first {
   color: white;
   font-size: 21px;
   background-color: #E30290;
-  padding: 10px 20px;
+  padding: 10px 0px;
+  width: 100%;
   border-radius: 100px;
   border: 2px solid #02BECA;
 }
@@ -225,7 +231,7 @@ section.second {
   background-color: #481093;
   color: white;
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
   border-radius: 0 0 0 100px;
 }
 
@@ -234,7 +240,7 @@ section.second {
   bottom: 0;
   background-color: #C7ECFF;
   width: 100vw;
-  height: 70vh;
+  height: 60vh;
 }
   
   .txt-box {
