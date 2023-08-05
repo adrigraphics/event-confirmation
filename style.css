@@ -110,7 +110,7 @@ section.first {
   color: white;
   font-size: 21px;
   transform: scale(0.9);
-  background-color: #A7026A;
+  background-color: #672282;
   padding: 10px 20px;
   border-radius: 100px;
   border: none;
@@ -132,7 +132,7 @@ section.first {
   gap: 10px;
   z-index: 4;
   left: 0;
-  background-color: black;
+  background-color: #e7dfdd;
   color: white;
   height: 100vh;
   width: 60vw;
@@ -174,7 +174,7 @@ section.second {
   position: absolute;
   z-index: 4;
   right: 0;
-  background-color: #340C6A !important;
+  background-color: black;
   color: white;
   height: 100vh;
   width: 40vw;
@@ -195,6 +195,11 @@ section.second {
   height: 100%;
   object-fit: cover;
   
+}
+
+.third {
+  background-color: #E7DFDD;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -230,7 +235,7 @@ section.second {
   position: absolute;
   z-index: 4;
   top: 0;
-  background-color: #481093;
+  background-color: black;
   color: white;
   width: 100vw;
   height: 50vh;
