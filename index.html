@@ -71,32 +71,45 @@
       <div class="thirdcontainer">
         <section id="third" class="third">
           <div class="txt-box">
-            <h2>Confirma tu asistencia</h2>
+            <h1>Confirma tu asistencia</h1>
 
-            <form action="/action_page.php">
-             
-              <input type="text" 
-                     id="fname" 
-                     name="fname"
-                     class="form"
-                     placeholder="Nombre"
-                     /><br />
-              
+            <form onsubmit="sendEmail(); reset(); return false;">
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                class="form"
+                placeholder="Nombre"
+                required
+              /><br />
+
               <input
                 type="tel"
                 id="phone"
                 name="phone"
                 class="form"
-                     placeholder="No. de Celular"
-                
+                placeholder="No. de Celular"
+                required
               /><br /><br />
               <input type="submit" value="¡Sí voy!" class="btn" />
             </form>
-
-            
           </div>
         </section>
       </div>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "adrigraphicss@gmail.com",
+          Password: "password",
+          To: "them@website.com",
+          From: "you@isp.com",
+          Subject: "This is the subject",
+          Body: "And this is the body",
+        }).then((message) => alert(message));
+      }
+    </script>
   </body>
 </html>
