@@ -76,8 +76,8 @@
             <form onsubmit="sendEmail(); reset(); return false;">
               <input
                 type="text"
-                id="fname"
-                name="fname"
+                id="name"
+                name="name"
                 class="form"
                 placeholder="Nombre"
                 required
@@ -89,14 +89,6 @@
                 name="phone"
                 class="form"
                 placeholder="No. de Celular"
-                required
-              /><br />
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="form"
-                placeholder="Correo"
                 required
               /><br /><br />
               <input type="submit" value="¡Sí voy!" class="btn" />
@@ -113,10 +105,14 @@
           Username: "despedidadesolteragaby@gmail.com",
           Password: "4371EE69486B6E759D35EE5CFFE68C4098BE",
           To: "adrigraphicss@gmail.com",
-          From: document.getElementById("name").value,
+          From: "despedidadesolteragaby@gmail.com",
           Subject: "Confirmación de asistencia",
-          Body: "And this is the body",
-        }).then((message) => alert(message));
+          Body:
+            "Nombre: " +
+            document.getElementById("name").value +
+            "<br>Número: " +
+            document.getElementById("phone").value,
+        }).then((message) => alert("Confirmación enviada"));
       }
     </script>
   </body>
