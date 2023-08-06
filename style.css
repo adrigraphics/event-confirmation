@@ -88,6 +88,30 @@ p {
   
 }
 
+.btn-calendar {
+  margin-top: 100px !important;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: none;
+  padding: 10px 20px;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+}
+
+.btn-calendar:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transform: scale(0.9);
+  background-color: #672282;
+  padding: 10px 20px;
+  border-radius: 100px;
+  
+}
+
 section.first {
   position: relative;
   height: 100vh;
