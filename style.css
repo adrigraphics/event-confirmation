@@ -91,24 +91,25 @@ p {
 .btn-calendar {
   margin-top: 100px !important;
   text-decoration: none;
-  color: black;
-  font-size: 18px;
-  font-weight: bolder;
+  color: white;
+  font-size: 16px;
+
   background-color: none;
   padding: 10px 20px;
   width: 100%;
   border-radius: 100px;
-  border: none;
+  border: 1px solid white;
 }
 
 .btn-calendar:hover {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   transform: scale(0.9);
   background-color: #672282;
   padding: 10px 20px;
   border-radius: 100px;
+  border: none;
   
 }
 
@@ -214,7 +215,7 @@ section.second {
 
 
 .third {
-  background-color: #E7DFDD;
+  background-color: black;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -224,7 +225,7 @@ section.second {
 }
 
 .third h1 {
-  color: #A239CA;
+  color: white;
 }
 
 .form {
@@ -274,6 +275,12 @@ section.second {
   position: absolute;
   top: -110px;
 }
+  .sparks-end{
+  position: absolute;
+  top: 0;
+}
+  
+  
   
   .txt-box {
   margin-top: 5px;
