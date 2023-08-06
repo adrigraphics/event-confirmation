@@ -151,7 +151,24 @@ section.first {
   
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
+a:hover {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: 1px solid white;
+  border-radius: 100px;
+  
+}
+
+btn-round {
+  border-radius: 100px;
+  background-color: #E7DFDD;
+  padding: 10px;
+}
 
 .imgcontainer img {
   width: 100%;
